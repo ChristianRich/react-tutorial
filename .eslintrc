@@ -1,0 +1,45 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "array-bracket-spacing": 0,
+    "no-var": 0,
+    "no-unused-vars": 1,
+    "vars-on-top": 0,
+    "prefer-template": 0,
+    "prefer-arrow-callback": 0,
+    "indent": [2, 4],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "no-console": 0,
+    "comma-dangle": 0,
+    "padded-blocks": 0,
+    "max-len": [2, 200],
+    "no-use-before-define": 0,
+    "space-before-function-paren": 0,
+    "func-names": 0,
+    "strict": 0,
+    "keyword-spacing": 0,
+    "new-cap": 0,
+    "one-var": 0,
+    "space-before-blocks": 0,
+    "brace-style": 0,
+    "no-trailing-spaces": 0,
+    "camelcase": 0,
+    "valid-jsdoc": 0,
+    "max-nested-callbacks": 0,
+    "no-mixed-requires": 0,
+    "comma-style": 0,
+    "no-new": 0,
+    "no-throw-literal": 0
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": "google"
+}
