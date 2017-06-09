@@ -72,7 +72,7 @@
   "scripts": {
     "start": "npm run webpack && node index",
     "test": "mocha test",
-    "webpack": "webpack --config webpack.config.js",
+    "webpack": "./node_modules/webpack/bin/webpack.js --config webpack.config.js",
     "nodemon": "npm run webpack && nodemon index.js"
   },
   "repository": {
