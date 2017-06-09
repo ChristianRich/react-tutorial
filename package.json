@@ -47,6 +47,7 @@
     "start": "node index",
     "test": "mocha test",
     "webpack": "node_modules/webpack/bin/webpack.js --config webpack.config.js",
+    "webpack-prod": "NODE_ENV=production node_modules/webpack/bin/webpack.js --config webpack.config.js",
     "nodemon": "npm run webpack && nodemon index.js"
   },
   "repository": {
