@@ -18,7 +18,11 @@ module.exports = () => {
 
 		const docs = [];
 
-		models.contact.collection.drop();
+		try{
+			models.contact.collection.drop();
+		} catch(e){
+			//
+		}
 
 		contacts.forEach((contact) => {
 			docs.push(new models.contact(contact));
