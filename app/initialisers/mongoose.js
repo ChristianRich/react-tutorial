@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 	, db = mongoose.connection
-	, URI = process.env.MONGODB_URL || 'mongodb://localhost:27017/react-contacts'
+	, URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/react-contacts'
 	, events = [
 		'open',             // Emitted after we connected and onOpen is executed on all of this connections models
 		'close',            // Emitted after we disconnected and onClose executed on all of this connections models
