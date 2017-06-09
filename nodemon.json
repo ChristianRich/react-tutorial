@@ -1,0 +1,16 @@
+{
+  "verbose": true,
+  "ext": "js hbs json",
+  "ignore": [
+    ".git",
+    "test/*",
+    "node_modules/**/node_modules",
+    "app/build/*"
+  ],
+  "watch": [
+    "app/**/*"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
